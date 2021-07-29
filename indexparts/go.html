@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>go</title>
+  <link rel="stylesheet" href="go-page.css">
+  <script defer src="go-page.js"></script>
+</head>
+
+<body>
+  <form action="servlet/Register" method="post">
+  <main id="main-holder">
+    <h1 id="go-header">go</h1>
+    
+    <div id="go-error-msg-holder">
+      <p id="go-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="go-form">
+      <input type="text" name="username" id="username-field" class="go-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="go-form-field" placeholder="Password">
+      <input type="submit" value="go" id="go-form-submit">
+
+       
+    </form>
+  
+  </main>
+</form>
+</body>
+
+</html>
+
+
+
